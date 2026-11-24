@@ -36,9 +36,15 @@ Sunday League Tracker was built to solve a real, recurring problem: running a we
 
 The app follows a straightforward MVVM structure: a single `TournamentViewModel` owns all tournament state and persists changes through a dedicated storage layer, while a background `Service` independently manages the live match timer — allowing the countdown and its notification to survive process death, app backgrounding, and navigation changes, then resynchronize correctly with whichever tournament owns the active match on next launch.
 
+
 ## Screenshots
 
-*(add 3-4 of your screenshots here — see note below)*
+<p float="left">
+  <img src="screenshots/home.png" width="200" />
+  <img src="screenshots/points_table.png" width="200" />
+  <img src="screenshots/live_match.png" width="200" />
+  <img src="screenshots/knockouts.png" width="200" />
+</p>
 
 ## Getting Started
 
